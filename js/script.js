@@ -58,11 +58,12 @@ $(function() {
             $('#raceInfo2 span').text('Finished in ' + place + ' place and clocked in at ' + raceTime2 + ' milliseconds!');
         });
         
-        
-        
-        
-        
-        
+    });
+    
+    //reset race
+    $('#reset').click(function(){
+        $('.car').css('left', '0');
+        $('.raceInfo span').text('');
     });
     
 
