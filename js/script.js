@@ -5,6 +5,15 @@ $(function() {
     //Click the go button
     $('#go').click(function (){
         
+        //build function to see which car one the race
+        function checkIfComplete(){
+            if( isComplete == false){
+                isComplete = true;
+            } else {
+                place = 'second';
+            }
+        }
+        
         //get with of the cars
         var carWidth = $('#car1').width();
         
@@ -31,7 +40,8 @@ $(function() {
             //animation is complete
             
             //run a function
-            
+            checkIfComplete();
+            $('#raceInfo 1 span').text('Finished in ' + place + ' place and clocked in at ' + raceTime1 + ' milliseconds!');
         });
     });
     
