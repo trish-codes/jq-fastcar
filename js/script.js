@@ -41,8 +41,28 @@ $(function() {
             
             //run a function
             checkIfComplete();
-            $('#raceInfo 1 span').text('Finished in ' + place + ' place and clocked in at ' + raceTime1 + ' milliseconds!');
+            $('#raceInfo1 span').text('Finished in ' + place + ' place and clocked in at ' + raceTime1 + ' milliseconds!');
         });
+        
+         //amimate car 2
+        $('#car2').animate({
+            
+           //move the car width of the racetrack
+            left: raceTrackWidth,
+            
+        }, raceTime2, function(){
+            //animation is complete
+            
+            //run a function
+            checkIfComplete();
+            $('#raceInfo2 span').text('Finished in ' + place + ' place and clocked in at ' + raceTime2 + ' milliseconds!');
+        });
+        
+        
+        
+        
+        
+        
     });
     
 

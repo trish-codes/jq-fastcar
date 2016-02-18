@@ -78,7 +78,7 @@ form input {
 .raceInfo{
     font-size: 24px;
     font-weight: bold;
-    color: lightslategrey;
+    color: lightslategray;
     width:50%;
     float:left;
 }
@@ -87,7 +87,7 @@ form input {
     display: block;
     font-weight: normal;
     font-size: 18px;
-    color:white;
+    color:lightslategray;
 }
 
 #raceInfo1{
