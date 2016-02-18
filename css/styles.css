@@ -46,6 +46,18 @@ form input {
     margin: 10px 0;
 }
 
+#racetrack{
+    background: url('../img/road.jpg') center left repeat-x;
+    height: 330px;
+    border-right: dashed 10px white;
+    box-sizing: border-box;
+}
+
+.car {
+    display: block;
+    position: relative;
+}
+
 
 
 
