@@ -51,6 +51,7 @@ form input {
     height: 330px;
     border-right: dashed 10px white;
     box-sizing: border-box;
+    margin: 20px 0;
 }
 
 .car {
@@ -82,3 +83,30 @@ form input {
     float:left;
 }
 
+.raceInfo span{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color:white;
+}
+
+#raceInfo1{
+    color: wheat;
+}
+
+#raceInfo2{
+    color: steelblue;
+}
+
+input[type="button"]{
+    background: white;
+    color:grey
+    padding: 10px 20px;
+    border: solid 1px #444;
+}
+
+.clearfix:after{
+    content:"";
+    display: table;
+    clear:both;
+}
