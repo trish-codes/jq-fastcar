@@ -1,7 +1,5 @@
 // script.js
 
-$(function() {
-
     //Click the go button
     $('#go').click(function (){
         
@@ -67,4 +65,3 @@ $(function() {
     });
     
 
-});
