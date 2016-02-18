@@ -61,7 +61,24 @@ form input {
 #car1 {top: 0px;}
 #car2 {top: 40px;}
 
+#raceInfoContainer  {
+    width: 100%;
+    background-color: lightcyan;
+    height: 200px;
+}
 
+#raceInfoContainer h2{
+    color: lightslategray;
+    text-transform: uppercase;
+    border-bottom: solid 1px ;
+    padding: 20px 0;
+}
 
-
+.raceInfo{
+    font-size: 24px;
+    font-weight: bold;
+    color: lightslategrey;
+    width:50%;
+    float:left;
+}
 
