@@ -21,6 +21,18 @@ $(function() {
         //set a flag bariabl to First by default
         var place = 'first';
         
+        //amimate car 1
+        $('#car1').animate({
+            
+           //move the car width of the racetrack
+            left: raceTrackWidth,
+            
+        }, raceTime1, function(){
+            //animation is complete
+            
+            //run a function
+            
+        });
     });
     
 
